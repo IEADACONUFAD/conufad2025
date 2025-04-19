@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evento 2025</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Nome do Evento 2025</h1>
+    <img src="imagem-do-evento.jpg" alt="Banner do Evento">
+  </header>
+
+  <section class="info">
+    <h2>Sobre o Evento</h2>
+    <p>Coloque aqui a descrição do evento, local, data e outras informações importantes.</p>
+  </section>
+
+  <section class="formulario">
+    <h2>Inscreva-se</h2>
+    <form action="https://formsubmit.co/seu-email@gmail.com" method="POST" enctype="multipart/form-data">
+      <input type="text" name="nome" placeholder="Nome completo" required>
+      <input type="email" name="email" placeholder="E-mail" required>
+      <input type="tel" name="telefone" placeholder="Telefone" required>
+      
+      <label>Envie o comprovante de pagamento:</label>
+      <input type="file" name="comprovante" accept=".pdf,.jpg,.png" required>
+
+      <button type="submit">Enviar Inscrição</button>
+    </form>
+  </section>
+
+  <section class="pagamento">
+    <h2>Pagamento</h2>
+    <p>Valor da inscrição: R$ XX,XX</p>
+    <a class="botao-pagamento" href="https://link-do-pagamento.com" target="_blank">Pagar agora</a>
+  </section>
+</body>
+</html>
